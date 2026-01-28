@@ -338,6 +338,28 @@ body {
   color: #000000;
 }
 
+.cmc-logo-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+}
+
+.cmc-logo-link:hover {
+  opacity: 0.7;
+}
+
+.cmc-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cmc-logo-link {
+  margin-top: 1.5rem;
+}
+
 .hero-visual {
   flex: 0 1 auto;
   max-width: 560px;
@@ -918,6 +940,16 @@ body {
     padding: 0.75rem 1rem;
     font-size: 0.625rem;
     letter-spacing: 0.08em;
+  }
+
+  .cmc-logo-link {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cmc-logo {
+    width: 48px;
+    height: 48px;
   }
 
   .video-logo-overlay {

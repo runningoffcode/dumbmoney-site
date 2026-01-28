@@ -74,6 +74,14 @@ function App() {
               OFFICIAL X
             </a>
           </div>
+          <a
+            href="https://coinmarketcap.com/currencies/dumb-money/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cmc-logo-link"
+          >
+            <img src="/assets/cmc-logo.jpg" alt="CoinMarketCap" className="cmc-logo" />
+          </a>
         </div>
         <div className="hero-visual">
           <div className="hero-video-wrapper">
