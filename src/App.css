@@ -28,6 +28,16 @@ body {
   min-height: 100vh;
   background: #000;
   overflow-x: hidden;
+  cursor: url('/assets/money-stack-cursor.png'), auto;
+}
+
+.site a,
+.site button,
+.site [role="button"],
+.site input,
+.site select,
+.site textarea {
+  cursor: url('/assets/money-stack-cursor.png'), pointer;
 }
 
 .site > * {
@@ -80,12 +90,22 @@ body {
 }
 
 .nav-logo {
+  position: relative;
   display: flex;
   align-items: center;
   margin-left: -1rem;
   flex-shrink: 1;
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
+}
+
+.nav-money-stack {
+  position: absolute;
+  height: 100px;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .nav-logo-3d {
@@ -150,6 +170,16 @@ body {
   color: #ffffff;
   width: 100%;
   overflow: hidden;
+}
+
+.hero-money-stack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 350px;
+  opacity: 0.8;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .hero-content {
@@ -887,6 +917,11 @@ body {
     overflow: visible;
   }
 
+  .nav-money-stack {
+    height: 45px;
+    left: -5px;
+  }
+
   .nav-logo-3d {
     width: 120px;
     height: 32px;
@@ -902,7 +937,7 @@ body {
 
   /* HERO */
   .hero {
-    padding: 4.5rem 0.75rem 2rem;
+    padding: 5.5rem 0.75rem 2rem;
     gap: 1.5rem;
   }
 

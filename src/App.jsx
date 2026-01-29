@@ -29,6 +29,7 @@ function App() {
       <nav className={`nav${scrolled ? ' nav-scrolled' : ''}`}>
         <div className="nav-inner">
           <a href="#" className="nav-logo">
+              <img src="/assets/money-stack.png" alt="" className="nav-money-stack" />
               <NavLogo3D />
             </a>
           <div className="nav-links">
