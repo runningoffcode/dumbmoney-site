@@ -92,6 +92,14 @@ function App() {
             >
               <img src="/assets/coingecko-logo.png" alt="CoinGecko" className="listing-logo" />
             </a>
+            <a
+              href="https://www.reddit.com/r/DumbMoneySolana/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="listing-logo-link"
+            >
+              <img src="/assets/reddit-logo.png" alt="Reddit" className="listing-logo" />
+            </a>
           </div>
         </div>
         <div className="hero-visual">
